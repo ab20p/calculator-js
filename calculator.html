@@ -8,30 +8,31 @@
 </head>
 <body>
    <div class="container">
-    <input class="dispay"readonly>
+    <input id="display"readonly>
     <div class="keys">
-        <button onclick="dispaly('+')" >+</button>
-        <button onclick="dispaly('7')" >7</button>
-        <button onclick="dispaly('8')" >8</button>
-        <button onclick="dispaly('9')" >9</button>
-        <button onclick="dispaly('-')" >-</button>
-        <button onclick="dispaly('4')" >4</button>
-        <button onclick="dispaly('5')" >5</button>
-        <button onclick="dispaly('6')" >6</button>
-        <button onclick="dispaly('*')" >*</button>
-        <button onclick="dispaly('1')" >1</button>
-        <button onclick="dispaly('2')" >2</button>
-        <button onclick="dispaly('3')" >3</button>
-        <button onclick="dispaly('/')" >/</button>
-        <button onclick="dispaly('0')" >0</button>
-        <button onclick="dispaly('.')" >.</button>
-        <button onclick="dispaly('clear')" >clear</button>
-        <button onclick="calculate()">=</button>
+        <button class="opkey" onclick="dispalyresult('+')" >+</button>
+        <button onclick="dispalyresult('7')" >7</button>
+        <button onclick="dispalyresult('8')" >8</button>
+        <button onclick="dispalyresult('9')" >9</button>
+        <button class="opkey" onclick="dispalyresult('-')" >-</button>
+        <button onclick="dispalyresult('4')" >4</button>
+        <button onclick="dispalyresult('5')" >5</button>
+        <button onclick="dispalyresult('6')" >6</button>
+        <button class="opkey" onclick="dispalyresult('*')" >*</button>
+        <button onclick="dispalyresult('1')" >1</button>
+        <button onclick="dispalyresult('2')" >2</button>
+        <button onclick="dispalyresult('3')" >3</button>
+        <button class="opkey" onclick="dispalyresult('/')" >/</button>
+        <button onclick="dispalyresult('0')" >0</button>
+        <button onclick="dispalyresult('.')" >.</button>
+        <button onclick="vanish()" >clear</button>
+        <button class="opkey" onclick="calculate()">=</button>
         
 
         
 </div>
 
    </div> 
+   <script src="calculator.js"></script>
 </body>
 </html>
